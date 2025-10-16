@@ -12,7 +12,7 @@ pnpm build
 for a browser on localhost `pnpm dev`. 
 for the other hosts, copy all files under `dist/` and run your HTTPS server
 
-This uses A-Frame and ...
+This package uses A-Frame and ...
 1. `@ucl-nuee/robot-loader`:  
    building a tree of link structures from URDF, registration, and more
 2. `@ucl-nuee/ik-cd-worker`:  
@@ -22,5 +22,5 @@ This uses A-Frame and ...
 
 See [`package.json`](./package.json) for details.
 
-This is built by `vite`, and copy assets and wasm using `viteStaticCopy`.
+This package is built by `vite`, and vite copies assets and WASMs using `viteStaticCopy`.
 See [`vite.config.js`](./vite.config.js).
